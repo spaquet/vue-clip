@@ -46,7 +46,7 @@ Also, you can reference the script file via [CDN]() which will add a global comp
   <vue-clip :options="options">
     <template slot="clip-uploader-action">
       <div>
-        <div class="dz-message"><h2> Click or Drag and Drop files here upload </h2></div>
+        <div class="dz-message" :style="{ cursor: 'pointer' }"><h2> Click or Drag and Drop files here upload </h2></div>
       </div>
     </template>
 
